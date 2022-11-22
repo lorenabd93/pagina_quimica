@@ -108,7 +108,7 @@ li a.active, li a:hover{
     /*fondo de pantalla completa esta section en index*/
 section{
 
-    background: url(fondo3.jpg) no-repeat;
+    background: url(imagenes/fondo3.jpg) no-repeat;
     background-size:cover;
     background: position center center;
     height: calc(100vh - 40px);
@@ -116,22 +116,11 @@ section{
 }
 
 
-
-
-
-
-
 #check{
 
     display:contents;
 }
-section{
 
-    background: url(fondo3.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 40px);
-}
 
 @media(max-width: 952px){
 .enlace{
