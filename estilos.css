@@ -1,19 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-    text-decoration:none;
-    box-sizing:-moz-linear-gradient(lower-alpha);
-    list-style: none
-    
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 
 }
- 
 
 /*lo que esta en navegador*/
 nav{
 
 
-    background: rgba(57, 169, 167, 0.432);
+    background: rgba(103, 189, 192, 0.432);
     height: 120px;
     width: 100%;
 
@@ -23,11 +21,12 @@ nav{
     position:absolute;
     padding: 10px 50px;
 
+
 }
 
 .logo{
 
-    height: 120px;
+    height: 100px;
 
 }
 
@@ -39,8 +38,8 @@ margin: right 20px; ;
 
 nav ul li{
     display:inline-block;
-    line-height: 100px;
-    margin: 0 20px
+    line-height: 120px;
+    margin: 0 5px
 }
 
 
@@ -48,23 +47,20 @@ nav ul li{
 
 nav ul li a{
 
-    color: #1406d8ca;
+    color: #282977ac;
     font-size: 20px;
     font-style:oblique;
     font-family:'Aclonica', sans-serif;
-    
     font-size-adjust: initial;
     padding: 7px 13px;
     border-radius: 3px;
-    text-transform:lowercase;
-    
+    text-transform: uppercase;
 }
- 
 
 li a.active, li a:hover{
 
-    background: hsl(210, 77%, 65%) ;
-    transition: .10s;
+    background: rgb(25, 116, 220) ;
+    transition: .5s;
 
 }
 
@@ -72,14 +68,14 @@ li a.active, li a:hover{
 .checkbtn{
 
     font-size: 15px;
-    color: rgb(45, 30, 143);
-    float: right;
+    color: rgb(30, 90, 143);
+    float:right;
     line-height: 40px;
-    cursor: pointer;
-    display: none;
+    cursor:pointer
+    display:none
+    
 
 }
-
 
 /*iconos*/
 .social-media-icon{
@@ -87,44 +83,29 @@ li a.active, li a:hover{
     justify-content: flex-end;
     width: 50%;
     color:rgb(11, 113, 147)
-    
 }
+
  /*efecto cuando se pasa cursor encima iconos*/
-.social-media-icon:hover{
-background: blanchedalmond;
-color:#05ba9088
-
-}
-
-.social-media-icon i{
-
-    font-size: 30px;
-    line-height: 60px;
-}
-
-
-.imageninicio{
- 
-    	
-    width: 1800px
+ .social-media-icon:hover{
+    background: blanchedalmond;
+    color:#05ba9088
     
+    }
 
-}
+    .social-media-icon i{
 
+        font-size: 30px;
+        line-height: 60px;
+    }
 
+    .imageninicio{
+ 
+    	 width: 1800px
 
-#Inicio{
+    }
 
-     
-    display:none;
-}
-
-#check{
-
-    display:none;
-}
-
-/*fondo de pantalla completa esta section en index*/
+    
+    /*fondo de pantalla completa esta section en index*/
 section{
 
     background: url(fondo3.jpg) no-repeat;
@@ -135,27 +116,43 @@ section{
 }
 
 
-@media(max-width: 858px){
-    .checkbtn{
-        display:block;
-     }
-    }
-@media(max-width: 952px)
-    .enlace{
-        padding-left: 20px;
-    }
 
 
 
 
 
+#check{
 
+    display:contents;
+}
+section{
 
+    background: url(fondo3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 40px);
+}
 
+@media(max-width: 952px){
+.enlace{
+    padding-left: 20px;
+    
+}
 nav ul li a {
 
     font-size: 16px;
   }
+
+
+  @media(max-width: 858px){
+    .checkbtn{
+    
+        display: block;
+    
+    }
+
+
+}
 
 
 
@@ -163,7 +160,7 @@ nav ul li a {
 
   ul{
 
-    position:fixed;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background-position: #2c2c2c;
@@ -175,7 +172,7 @@ nav ul li a {
 
 nav ul li{
 
-    display:block;
+    display: block;
     margin: 50px 0;
     line-height: 30px;
 }
@@ -187,12 +184,8 @@ nav ul li a{
 
 li a:hover,li a.active{
 
-background:scroll;
-padding-top: 60cm;
-
-color:rgba(23, 230, 85, 0.895)
-
-
+background: none;
+color:rgba(0, 255, 195, 0.479)
    }
 
    #check:checked ~ ul{
@@ -201,7 +194,7 @@ color:rgba(23, 230, 85, 0.895)
    }
 
 
-   /*fuente*/
+/*fuente*/
 /*el tipo de fuente de  la letra del cuerpo*/
 body{
 
@@ -231,18 +224,22 @@ h1{
     padding: 5%;
 }
 
+
+
+
 .init{
 
-    font-family: 'Shadows Into Light', cursive;
+    
+    font-family:'Aclonica', sans-serif;
+    Shadows Into Light', cursive;
     font-display:inherit;
-    text-align: justify;
+    text-align:  center;
     text-overflow: ellipsis;
     padding-block-start: 0,5cm;
     padding-inline-end: 0,5cm;
     print-color-adjust:inherit;
-  
-
-    
 
 
 }
+
+
