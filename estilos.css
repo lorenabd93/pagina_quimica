@@ -6,8 +6,9 @@
     box-sizing: border-box;
 
 }
+ 
 
-
+/*lo que esta en navegador*/
 nav{
 
 
@@ -16,7 +17,7 @@ nav{
     width: 100%;
 
 }
-
+ /*el punto señala las clases*/
 .enlace{
     position:absolute;
     padding: 10px 50px;
@@ -47,7 +48,7 @@ nav ul li{
 
 nav ul li a{
 
-    color: #282977ac;
+    color: #285f77ac;
     font-size: 20px;
     font-style:oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -56,6 +57,9 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
+ 
+
+
 
 li a.active, li a:hover{
 
@@ -64,10 +68,11 @@ li a.active, li a:hover{
 
 }
 
+/*para boton tres lineas*/
 .checkbtn{
 
     font-size: 15px;
-    color: rgb(30, 90, 143);
+    color: rgb(45, 30, 143);
     float: right;
     line-height: 40px;
     cursor: pointer;
@@ -76,10 +81,28 @@ li a.active, li a:hover{
 }
 
 
+/*iconos*/
+.social-media-icon{
+    font-size: 30px;
+    display:contents;
+    color:rgb(11, 113, 147)
+    
+    
+   
+
+}
+
+#Inicio{
+
+    display: list-item;
+}
+
 #check{
 
-    display: none;
+    display:none;
 }
+
+/*fondo de pantalla completa esta section en index*/
 section{
 
     background: url(fondo3.jpg) no-repeat;
@@ -102,7 +125,7 @@ nav ul li a {
 @media(max-width: 858px){
 .checkbtn{
 
-    display: block;
+    display:block;
 
 }
   ul{
@@ -139,6 +162,14 @@ color:rgba(0, 255, 195, 0.479)
 
     left: 0;
    }
+
+
+   /*fuente*/
+/*el tipo de fuente de  la letra del cuerpo*/
+body{
+
+    font-family: 'Patrick Hand', cursive;
+}
 
 
 }
