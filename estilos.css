@@ -84,13 +84,25 @@ li a.active, li a:hover{
 /*iconos*/
 .social-media-icon{
     font-size: 30px;
-    display:contents;
+    justify-content: flex-end;
+    width: 50%;
     color:rgb(11, 113, 147)
     
-    
-   
+}
+ /*efecto cuando se pasa cursor encima iconos*/
+.social-media-icon:hover{
+background: blanchedalmond;
+color:#05ba9088
 
 }
+
+.social-media-icon i{
+
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
 
 #Inicio{
 
@@ -171,5 +183,9 @@ body{
     font-family: 'Patrick Hand', cursive;
 }
 
+
+
+    
+}
 
 }
